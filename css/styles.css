@@ -1,9 +1,10 @@
 :root {
     --primery-text-color: #212121;
     --secondary-text-color: #757575;
-    --accent-color: #2196F3;
-    --primery-white-color: #FFFFFF;  
-    --primary-background-color: #2F303A;
+    --accent-color: #2196f3;
+    --primery-white-color: #ffffff;  
+    --primary-background-color: #2f303a;
+    --secondary-background-color: #e5e5e5;
 }
 
 body {
@@ -11,6 +12,11 @@ body {
     color: var(--primery-text-color);
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
+    }
+
+ul {
+        padding: 0;
+        list-style: none;
     }
 
 /*logo*/
@@ -54,9 +60,9 @@ color: var(--primery-text-color);
 .menu-nav .link:focus {
     color: var(--accent-color);
 }
-.menu-nav .link.current {
+.link.link-current {
     color: var(--accent-color);
-} 
+}
 
 /*header-contacts*/
 .contacts-nav .link {
@@ -72,7 +78,7 @@ color: var(--primery-text-color);
     color: var(--accent-color);
 }
 
-/*main studio*/
+/*studio*/
 /*hero*/
 .hero {
     background-color: var(--primary-background-color);
@@ -84,9 +90,7 @@ color: var(--primery-text-color);
         letter-spacing: 0.06em;
         text-transform: uppercase;
         text-align: center;
-        
-            color: var(--primery-white-color);
-            background: var(--background-color-primary)
+        color: var(--primery-white-color);
  }
 .main-button {
     font-family: inherit;
@@ -100,7 +104,7 @@ color: var(--primery-text-color);
         text-align: center;
 }
 
-/*studio*/
+/*features, example projects, team*/
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -129,6 +133,10 @@ font-size: 14px;
 line-height: 1.71;
 color: var(--secondary-text-color);
 }
+.section-team {
+    background-color: var(--secondary-background-color);
+
+}
 
 /*portfolio-filters*/
 .button {
@@ -153,18 +161,18 @@ color: var(--secondary-text-color);
     
 /*portfolio-cards*/
 .card-title {
-text-decoration: none;
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-
-color:
+color:var(--primery-text-color);
 }
-
-ul {
-    padding: 0;
-    list-style: none;
+.card-description {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color:var(--secondary-text-color);
 }
 
 /*footer*/
@@ -174,7 +182,6 @@ ul {
     }
     .link-footer-adress {
 text-decoration: none;
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;    
@@ -188,7 +195,6 @@ text-decoration: none;
     }
     .link-footer {
         text-decoration: none;
-        font-family: 'Roboto', sans-serif;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
