@@ -11,6 +11,7 @@ body {
     background-color: var(--primery-white-color);
     color: var(--primery-text-color);
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     letter-spacing: 0.03em;
     }
 
@@ -32,24 +33,17 @@ ul {
 }
 .web {
     color: #2196F3;
-    letter-spacing: 0.03em;
-
 }
 .studio {
     color: #000000;
-    letter-spacing: 0.03em;
-
 }
 .studio-footer {
-    color: #FFFFFF;
-    letter-spacing: 0.03em;
-
+    color: var(--primery-white-color);
 }
 
 /*navigation*/
 .menu-nav .link {
 text-decoration: none;
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -102,6 +96,7 @@ color: var(--primery-text-color);
         color: var(--primery-white-color);
         background: var(--accent-color);
         text-align: center;
+        cursor: pointer;
 }
 
 /*features, example projects, team*/
@@ -127,8 +122,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 }
-.section-text {
-font-weight: 400;
+.features-text {
 font-size: 14px;
 line-height: 1.71;
 color: var(--secondary-text-color);
@@ -146,9 +140,9 @@ color: var(--secondary-text-color);
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
-    
     color: var(--primery-text-color);
     background: var(--primery-white-color);
+    cursor: pointer;
     }
     .button:hover {
         color: var(--primery-white-color);
@@ -168,21 +162,17 @@ letter-spacing: 0.06em;
 color:var(--primery-text-color);
 }
 .card-description {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
-letter-spacing: 0.03em;
 color:var(--secondary-text-color);
 }
 
 /*footer*/
 .footer {
-    background: #2F303A;
-    letter-spacing: 0.03em;
+    background: var(--primary-background-color);
     }
     .link-footer-adress {
 text-decoration: none;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;    
     color: var(--primery-white-color);
@@ -195,7 +185,6 @@ text-decoration: none;
     }
     .link-footer {
         text-decoration: none;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
 color: rgba(255, 255, 255, 0.6);
